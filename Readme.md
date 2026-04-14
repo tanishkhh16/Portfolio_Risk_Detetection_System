@@ -128,6 +128,9 @@ streamlit run var_analyzer/visualization/dashboard.py
 
 ---
 
+
+
+
 ## 📊 Excel Report Includes
 
 * Summary (VaR, CVaR, Risk Level)
@@ -135,6 +138,18 @@ streamlit run var_analyzer/visualization/dashboard.py
 * Asset Returns
 * Correlation Matrix
 * Insights & Recommendations
+
+
+## 📸 Screenshots
+
+### 📊 Dashboard
+![Dashboard](assets/dashboard.png)
+
+### 📄 Excel Summary
+![Summary](assets/excel_summary.png)
+
+### 📈 Correlation Matrix
+![Correlation](assets/correlation_matrix.png)
 
 ---
 

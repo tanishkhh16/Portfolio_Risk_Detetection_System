@@ -8,29 +8,17 @@ import pandas as pd
 import seaborn as sns
 import streamlit as st
 
-try:
-    from var_analyzer.data.portfolio_loader import load_portfolio_data
-    from var_analyzer.preprocessing.returns_engine import (
+
+from var_analyzer.data.portfolio_loader import load_portfolio_data
+from var_analyzer.preprocessing.returns_engine import (
         calculate_log_returns,
         calculate_portfolio_returns,
         calculate_statistics,
     )
-    from var_analyzer.reporting.excel_exporter import export_risk_report_to_excel
-    from var_analyzer.risk_models.cvar import calculate_cvar
-    from var_analyzer.risk_models.historical_var import calculate_historical_var
-    from var_analyzer.risk_analysis.risk_summary import generate_full_risk_report
-except ImportError:
-    # Fallback when running from inside the var_analyzer folder.
-    from data.portfolio_loader import load_portfolio_data
-    from preprocessing.returns_engine import (
-        calculate_log_returns,
-        calculate_portfolio_returns,
-        calculate_statistics,
-    )
-    from reporting.excel_exporter import export_risk_report_to_excel
-    from risk_models.cvar import calculate_cvar
-    from risk_models.historical_var import calculate_historical_var
-    from risk_analysis.risk_summary import generate_full_risk_report
+from var_analyzer.reporting.excel_exporter import export_risk_report_to_excel
+from var_analyzer.risk_models.cvar import calculate_cvar
+from var_analyzer.risk_models.historical_var import calculate_historical_var
+from var_analyzer.risk_analysis.risk_summary import generate_full_risk_report
 
 
 def main() -> None:
