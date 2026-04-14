@@ -143,13 +143,13 @@ python -m streamlit run var_analyzer/visualization/dashboard.py
 ## 📸 Screenshots
 
 ### 📊 Dashboard
-![Dashboard](assets/dashboard.png)
+![Dashboard](var_analyzer/assets/dashboard.png)
 
 ### 📄 Excel Summary
-![Summary](assets/excel_summary.png)
+![Summary](var_analyzer/assets/excel_summary.png)
 
 ### 📈 Correlation Matrix
-![Correlation](assets/correlation_matrix.png)
+![Correlation](var_analyzer/assets/correlation_matrix.png)
 
 ---
 
