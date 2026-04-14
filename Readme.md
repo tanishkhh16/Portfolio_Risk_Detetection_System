@@ -190,14 +190,6 @@ python -m streamlit run var_analyzer/visualization/dashboard.py
 
 ---
 
-## ⭐ Future Improvements
-
-* Live market data integration
-* Portfolio optimization (Sharpe Ratio)
-* Backtesting module
-* Web deployment
-
----
 
 ## 🧹 Important
 
