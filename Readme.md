@@ -113,7 +113,7 @@ python var_analyzer/main.py
 ### 🔹 Run Dashboard (Interactive UI)
 
 ```
-streamlit run var_analyzer/visualization/dashboard.py
+python -m streamlit run var_analyzer/visualization/dashboard.py
 ```
 
 ✅ Output:
